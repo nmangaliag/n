@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEN A&A</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: white;
+        }
+        .headlol{
+            background-color: #849B4B;
+        }
+        .sizer{
+            width: 50px;
+        }
+        .searcher{
+            color: #553D2F;
+        }
+        .search{
+            margin-left: 29vw;
+            background-color: #BFDB79;
+            border-radius: 1000px;
+            width: 450px;
+            height: 65px;
+        }
+        .mainbg{
+            background-image: url(background.jpg);
+            height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+        }
+        .re1{
+            font-size: 103px;
+        }
+        .re2, .re3, .re4{
+            font-family: "Nanum Gothic", sans-serif;
+        }
+        .re2{
+            margin-top: -10px;
+            font-size: 50.9px;
+        }
+        .re3{
+            margin-top: -10px;
+            font-size: 35.5px;
+        }
+        .lolere{
+            margin-right: 300px;
+        }
+        .re4{
+            margin-top: -5px;
+            background-color: #849B4B;
+            border-radius: 1000px;
+            width: 315px;
+            height: 40px;
+            cursor: pointer;
+        }
+        .re4:hover {
+            background-color: #302623;
+        }
+        .mainbg{
+            padding-top: 150px;
+            padding-bottom: 50px;
+        }
+        .main{
+            margin-right: 130px;
+        }
+        .shoparea{
+            background-color: #DBC59D;
+            color: black;
+        }
+        .th1{
+            font-size: 56.8px;
+            color: #302623;
+        }
+        .cardlolskibididop{
+            background-color: #FAE9C8;
+            border-radius: 30px;
+            width: 220px;
+        }
+        .texter{
+            font-size: 19px;
+        }
+        .texter2{
+            font-size: 19px;
+            margin-top: -5px;
+        }
+        .add{
+            border: 3px solid #6B7B44;
+            background-color: #849B4B;
+            width: 100px;
+            border-radius: 15px;
+            text-align: center;
+            height: 50px;
+            margin-left: 100px;
+        }
+        .mslol{
+            margin-left: 40px;
+        }
+        .checkout{
+            background-color: #849b4b75;
+            border-radius: 30px;
+            min-height: 520px;
+        }
+        .fonter{
+            font-size: 56.8px;
+        }
+        input[type=text] {
+  width: 550px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #DBC59D;
+  border: 2px solid #9F9176;
+  border-left: none;
+  border-radius: 0px;
+  font-size: 20px;
+}
+input[type=text]:focus {
+  width: 550px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #DBC59D;
+  border: 2px solid #9F9176;
+  border-left: none;
+  border-radius: 0px;
+  outline: none !important;
+  box-shadow: none;
+  font-size: 20px;
+}
+input[type=email] {
+  width: 558px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #DBC59D;
+  border: 2px solid #9F9176;
+  border-left: none;
+  border-radius: 0px;
+  font-size: 20px;
+}
+input[type=email]:focus {
+  width: 558px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #DBC59D;
+  border: 2px solid #9F9176;
+  border-left: none;
+  border-radius: 0px;
+  font-size: 20px;
+  outline: none !important;
+  box-shadow: none;
+}
+label{
+    font-size: 30.1px;
+  padding: 4.43px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #DBC59D;
+  border: 2px solid #9F9176;
+  border-right: none;
+  border-radius: 0px;
+}
+.awp{
+    margin-left: 520px;
+    position: absolute;
+}
+.love{
+    font-size: 30.1px;
+  padding: 4.43px 13px;
+  padding-right: 0px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #DBC59D;
+  border: 2px solid #9F9176;
+  border-right: none;
+  border-radius: 0px;
+}
+.miag{
+    font-size: 20px;
+    margin-top: 15px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#hide1{
+    display: none;
+}
+#hide2{
+    display: none;
+}
+#hide3{
+    display: none;
+}
+#hide4{
+    display: none;
+}
+#hide5{
+    display: none;
+}
+#hide6{
+    display: none;
+}
+#hide7{
+    display: none;
+}
+#hide8{
+    display: none;
+}
+#hide9{
+    display: none;
+}
+#hide10{
+    display: none;
+}
+#hide11{
+    display: none;
+}
+#hide12{
+    display: none;
+}
+#hide13{
+    display: none;
+}
+#hide14{
+    display: none;
+}
+#hide15{
+    display: none;
+}
+#hide16{
+    display: none;
+}
+#hide17{
+    display: none;
+}
+#hide18{
+    display: none;
+}
+#hide19{
+    display: none;
+}
+#hide20{
+    display: none;
+}
+.iloveyoutoo{
+    padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #DBC59D;
+  border: 2px solid #9F9176;
+  border-radius: 0px;
+  font-size: 20px;
+  margin-left: 30px;
+  width: 420px;
+}
+.po {
+    cursor: pointer;
+}
+.po:hover {
+background-color: #BFDB79;
+}
+    </style>
+</head>
+<body>
+
+    <div class="d-flex align-items-center headlol">
+        <h1 class="ms-3 mt-3 mb-4">NEN A&A</h1>
+        <h2 class="home ms-5 mt-3 mb-3"><a href="index.html">Home</a></h2>
+        <h3 class="about ms-5 mt-3 mb-3"><a href="about.html">About</a></h3>
+        <div class="d-flex align-items-center justify-content-start search">
+            <img src="mg.png" class="sizer me-3 ms-3" alt="search icon">
+            <h3 class="mt-2 searcher">Search</h3>
+        </div>
+    </div>
+    <div class="mainbg">
+        <div class="justify-content-end main d-flex flex-column align-items-end">
+            <h1 class="re1">NEN A&A</h1>
+            <h1 class="re2">NEN Apparel & Accessories</h1>
+            <h1 class="re3">*All Studio Ghibli and Cottagecore themed</h1>
+            <div class="re4"><h3 class=" ms-3 lolere me-3"><a href="about.html">About the company</a></h3></div>
+        </div>
+    </div>
+    <div class="shoparea pb-5">
+        <div class="Accessories">
+            <h1 class="th1 pt-4 ms-5">Accessories</h1>
+            <div class="cards d-flex">
+                <div class="cardlolskibididop ms-5 mt-4 d-flex flex-column">
+                    <img src="bowclip.jpg" class="mt-4 ms-4 me-4" alt="bowclip">
+                    <h1 class="texter mt-3 ms-3">Red Studio Ghibli Themed Hair clip</h1>
+                    <h2 class="texter2 ms-3">Php 70</h2>
+                    <h1 class="po texter add d-flex align-items-center mb-3 justify-content-center" onclick="add1()">Add</h1>
+                </div>
+                <div class="cardlolskibididop mslol mt-4 d-flex flex-column">
+                    <img src="buckethat.jpg" class="mt-4 ms-4 me-4" alt="buckethat">
+                    <h1 class="texter mt-3 ms-3">Calcifer Designed Bucket Hat</h1>
+                    <h2 class="texter2 ms-3">Php 150</h2>
+                    <h1 class="po texter add d-flex align-items-center mb-3 justify-content-center" onclick="add2()">Add</h1>
+                </div>
+                <div class="cardlolskibididop mslol mt-4 d-flex flex-column">
+                    <img src="crochethat.jpg" class="mt-4 ms-4 me-4" alt="crochet hat">
+                    <h1 class="texter mt-3 ms-3">My Neighbor Totoro Crochet Hat</h1>
+                    <h2 class="texter2 ms-3">Php 200</h2>
+                    <h1 class="po texter add d-flex align-items-center mb-3 justify-content-center" onclick="add3()">Add</h1>
+                </div>
+                <div class="cardlolskibididop mslol mt-4 d-flex flex-column">
+                    <img src="keychain.jpg" class="mt-4 ms-4 me-4" alt="keychain">
+                    <h1 class="texter mt-3 ms-3">My Neighbor Totoro Keychains</h1>
+                    <h2 class="texter2 ms-3">Php 60</h2>
+                    <h1 class="po texter add d-flex align-items-center mb-3 justify-content-center" onclick="add4()">Add</h1>
+                </div>
+                <div class="cardlolskibididop mslol mt-4 d-flex flex-column">
+                    <img src="bag.jpg" class="mt-4 ms-4 me-4" alt="bag">
+                    <h1 class="texter mt-3 ms-3">My Neighbor Totoro Canvas Bag</h1>
+                    <h2 class="texter2 ms-3">Php 300</h2>
+                    <h1 class="po texter add d-flex align-items-center mb-3 justify-content-center" onclick="add5()">Add</h1>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="Accessories mt-5">
+            <h1 class="th1 pt-4 ms-5">Jewelries</h1>
+            <div class="cards d-flex">
+                <div class="cardlolskibididop ms-5 mt-4 d-flex flex-column">
+                    <img src="anklet.jpg" class="mt-4 ms-4 me-4" alt="bowclip">
+                    <h1 class="texter mt-3 ms-3">Turtle Themed Pearl Anklet</h1>
+                    <h2 class="texter2 ms-3">Php 40</h2>
+                    <h1 class="po texter add d-flex align-items-center mb-3 justify-content-center" onclick="add6()">Add</h1>
+                </div>
+                <div class="cardlolskibididop mslol mt-4 d-flex flex-column">
+                    <img src="bracelet.jpg" class="mt-4 ms-4 me-4" alt="buckethat">
+                    <h1 class="texter mt-3 ms-3">Sun&Moon Matching Beaded Bracelet</h1>
+                    <h2 class="texter2 ms-3">Php 50</h2>
+                    <h1 class="po texter add d-flex align-items-center mb-3 justify-content-center" onclick="add7()">Add</h1>
+                </div>
+                <div class="cardlolskibididop mslol mt-4 d-flex flex-column">
+                    <img src="earrings.jpg" class="mt-4 ms-4 me-4" alt="crochet hat">
+                    <h1 class="texter mt-3 ms-3">Aesthetic Handmade Earrings</h1>
+                    <h2 class="texter2 ms-3">Php 60</h2>
+                    <h1 class="po texter add d-flex align-items-center mb-3 justify-content-center" onclick="add8()">Add</h1>
+                </div>
+                <div class="cardlolskibididop mslol mt-4 d-flex flex-column">
+                    <img src="necklace.jpg" class="mt-4 ms-4 me-4" alt="keychain">
+                    <h1 class="texter mt-3 ms-3">Grunge Themed Beaded Necklace</h1>
+                    <h2 class="texter2 ms-3">Php 120</h2>
+                    <h1 class="po texter add d-flex align-items-center mb-3 justify-content-center" onclick="add9()">Add</h1>
+                </div>
+                <div class="cardlolskibididop mslol mt-4 d-flex flex-column">
+                    <img src="rings.jpg" class="mt-4 ms-4 me-4" alt="bag">
+                    <h1 class="texter mt-3 ms-3">Stylish Set of Rings</h1>
+                    <h2 class="texter2 ms-3">Php 30</h2>
+                    <br>
+                    <h1 class="po texter add d-flex align-items-center mb-3 justify-content-center" onclick="add10()">Add</h1>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="Accessories mt-5">
+            <h1 class="th1 pt-4 ms-5">Menswear</h1>
+            <div class="cards d-flex">
+                <div class="cardlolskibididop ms-5 mt-4 d-flex flex-column">
+                    <img src="jacket.jpg" class="mt-4 ms-4 me-4" alt="bowclip">
+                    <h1 class="texter mt-3 ms-3">Layered Polo Jacket</h1>
+                    <h2 class="texter2 ms-3">Php 350</h2>
+                    <br>
+                    <h1 class="po texter add d-flex align-items-center mb-3 justify-content-center" onclick="add11()">Add</h1>
+                </div>
+                <div class="cardlolskibididop mslol mt-4 d-flex flex-column">
+                    <img src="pants.jpg" class="mt-4 ms-4 me-4" alt="buckethat">
+                    <h1 class="texter mt-3 ms-3">Grey Cargo Pants</h1>  
+                    <h2 class="texter2 ms-3">Php 130</h2>
+                    <br>
+                    <h1 class="po texter add d-flex align-items-center mb-3 justify-content-center" onclick="add12()">Add</h1>
+                </div>
+                <div class="cardlolskibididop mslol mt-4 d-flex flex-column">
+                    <img src="polo.jpg" class="mt-4 ms-4 me-4" alt="crochet hat">
+                    <h1 class="texter mt-3 ms-3">Floral Button Up Polo</h1>
+                    <h2 class="texter2 ms-3">Php 120</h2>
+                    <h1 class="po texter add d-flex align-items-center mb-3 justify-content-center" onclick="add13()">Add</h1>
+                </div>
+                <div class="cardlolskibididop mslol mt-4 d-flex flex-column">
+                    <img src="sweater.jpg" class="mt-4 ms-4 me-4" alt="keychain">
+                    <h1 class="texter mt-3 ms-3">Blue Cotton Sweater</h1>
+                    <h2 class="texter2 ms-3">Php 200</h2>
+                    <br>
+                    <h1 class="po texter add d-flex align-items-center mb-3 justify-content-center" onclick="add14()">Add</h1>
+                </div>
+                <div class="cardlolskibididop mslol mt-4 d-flex flex-column">
+                    <img src="menshorts.jpg" class="mt-4 ms-4 me-4" alt="bag">
+                    <h1 class="texter mt-3 ms-3">Grey Cargo Shorts</h1>
+                    <h2 class="texter2 ms-3">Php 210</h2>
+                    <br>
+                    <h1 class="po texter add d-flex align-items-center mb-3 justify-content-center" onclick="add15()">Add</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="Accessories mt-5">
+            <h1 class="th1 pt-4 ms-5">Womenswear</h1>
+            <div class="cards d-flex">
+                <div class="cardlolskibididop ms-5 mt-4 d-flex flex-column">
+                    <img src="blouse.jpg" class="mt-4 ms-4 me-4" alt="bowclip">
+                    <h1 class="texter mt-3 ms-3">Checkered Sleeveless Peplum Top</h1>
+                    <h2 class="texter2 ms-3">Php 180</h2>
+                    
+                    <h1 class="po texter add d-flex align-items-center mb-3 justify-content-center" onclick="add16()">Add</h1>
+                </div>
+                <div class="cardlolskibididop mslol mt-4 d-flex flex-column">
+                    <img src="dress.jpg" class="mt-4 ms-4 me-4" alt="buckethat">
+                    <h1 class="texter mt-3 ms-3">Sage Green Vintage Gown</h1>  
+                    <h2 class="texter2 ms-3">Php 350</h2>
+                    <br>
+                    <h1 class="po texter add d-flex align-items-center mb-3 justify-content-center" onclick="add17()">Add</h1>
+                </div>
+                <div class="cardlolskibididop mslol mt-4 d-flex flex-column">
+                    <img src="shorts.jpg" class="mt-4 ms-4 me-4" alt="crochet hat">
+                    <h1 class="texter mt-3 ms-3">Mushroom Themed Brown High Waisted Shorts</h1>
+                    <h2 class="texter2 ms-3">Php 150</h2>
+                    
+                    <h1 class="po texter add d-flex align-items-center mb-3 justify-content-center" onclick="add18()">Add</h1>
+                </div>
+                <div class="cardlolskibididop mslol mt-4 d-flex flex-column">
+                    <img src="skirt.jpg" class="mt-4 ms-4 me-4" alt="keychain">
+                    <h1 class="texter mt-3 ms-3">Flower Designed Long Skirt</h1>
+                    <h2 class="texter2 ms-3">Php 190</h2>
+                    <br>
+                    <h1 class="po texter add d-flex align-items-center mb-3 justify-content-center" onclick="add19()">Add</h1>
+                </div>
+                <div class="cardlolskibididop mslol mt-4 d-flex flex-column">
+                    <img src="vest.jpg" class="mt-4 ms-4 me-4" alt="bag">
+                    <h1 class="texter mt-3 ms-3">Cotton Sleeveless Vest</h1>
+                    <h2 class="texter2 ms-3">Php 150</h2>
+                    <br>
+                    <h1 class="po texter add d-flex align-items-center mb-3 justify-content-center" onclick="add20()">Add</h1>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="checkout mt-5 ms-5 me-5">
+            <h1 class="ms-4 pt-3 fonter">Checkout</h1>
+            <div class="d-flex justify-content-start">
+            <div class="d-flex flex-column">
+                <h1 class="ms-4">Cart:</h1>
+
+                <div id="hide1" class="iloveyoutoo">
+                    <p id="slot1"></p>
+                    <p id="slot1b"></p>
+                    <button class="btn btn-lg btn-dark slot1c" onclick="remove1()">Remove</button>
+                </div>
+                <div id="hide2" class="iloveyoutoo">
+                    <p id="slot2"></p>
+                    <p id="slot2b"></p>
+                    <button class="btn btn-lg btn-dark slot1c" onclick="remove2()">Remove</button>
+                </div>
+                <div id="hide3" class="iloveyoutoo">
+                    <p id="slot3"></p>
+                    <p id="slot3b"></p>
+                    <button class="btn btn-lg btn-dark slot1c" onclick="remove3()">Remove</button>
+                </div>
+                <div id="hide4" class="iloveyoutoo">
+                    <p id="slot4"></p>
+                    <p id="slot4b"></p>
+                    <button class="btn btn-lg btn-dark slot1c" onclick="remove4()">Remove</button>
+                </div>
+                <div id="hide5" class="iloveyoutoo">
+                    <p id="slot5"></p>
+                    <p id="slot5b"></p>
+                    <button class="btn btn-lg btn-dark slot1c" onclick="remove5()">Remove</button>
+                </div>
+                <div id="hide6" class="iloveyoutoo">
+                    <p id="slot6"></p>
+                    <p id="slot6b"></p>
+                    <button class="btn btn-lg btn-dark slot1c" onclick="remove6()">Remove</button>
+                </div>
+                <div id="hide7" class="iloveyoutoo">
+                    <p id="slot7"></p>
+                    <p id="slot7b"></p>
+                    <button class="btn btn-lg btn-dark slot1c" onclick="remove7()">Remove</button>
+                </div>
+                <div id="hide8" class="iloveyoutoo">
+                    <p id="slot8"></p>
+                    <p id="slot8b"></p>
+                    <button class="btn btn-lg btn-dark slot1c" onclick="remove8()">Remove</button>
+                </div>
+                <div id="hide9" class="iloveyoutoo">
+                    <p id="slot9"></p>
+                    <p id="slot9b"></p>
+                    <button class="btn btn-lg btn-dark slot1c" onclick="remove9()">Remove</button>
+                </div>
+                <div id="hide10" class="iloveyoutoo">
+                    <p id="slot10"></p>
+                    <p id="slot10b"></p>
+                    <button class="btn btn-lg btn-dark slot1c" onclick="remove10()">Remove</button>
+                </div>
+                <div id="hide11" class="iloveyoutoo">
+                    <p id="slot11"></p>
+                    <p id="slot11b"></p>
+                    <button class="btn btn-lg btn-dark slot1c" onclick="remove11()">Remove</button>
+                </div>
+                <div id="hide12" class="iloveyoutoo">
+                    <p id="slot12"></p>
+                    <p id="slot12b"></p>
+                    <button class="btn btn-lg btn-dark slot1c" onclick="remove12()">Remove</button>
+                </div>
+                <div id="hide13" class="iloveyoutoo">
+                    <p id="slot13"></p>
+                    <p id="slot13b"></p>
+                    <button class="btn btn-lg btn-dark slot1c" onclick="remove13()">Remove</button>
+                </div>
+                <div id="hide14" class="iloveyoutoo">
+                    <p id="slot14"></p>
+                    <p id="slot14b"></p>
+                    <button class="btn btn-lg btn-dark slot1c" onclick="remove14()">Remove</button>
+                </div>
+                <div id="hide15" class="iloveyoutoo">
+                    <p id="slot15"></p>
+                    <p id="slot15b"></p>
+                    <button class="btn btn-lg btn-dark slot1c" onclick="remove15()">Remove</button>
+                </div>
+                <div id="hide16" class="iloveyoutoo">
+                    <p id="slot16"></p>
+                    <p id="slot16b"></p>
+                    <button class="btn btn-lg btn-dark slot1c" onclick="remove16()">Remove</button>
+                </div>
+                <div id="hide17" class="iloveyoutoo">
+                    <p id="slot17"></p>
+                    <p id="slot17b"></p>
+                    <button class="btn btn-lg btn-dark slot1c" onclick="remove17()">Remove</button>
+                </div>
+                <div id="hide18" class="iloveyoutoo">
+                    <p id="slot18"></p>
+                    <p id="slot18b"></p>
+                    <button class="btn btn-lg btn-dark slot1c" onclick="remove18()">Remove</button>
+                </div>
+                <div id="hide19" class="iloveyoutoo">
+                    <p id="slot19"></p>
+                    <p id="slot19b"></p>
+                    <button class="btn btn-lg btn-dark slot1c" onclick="remove19()">Remove</button>
+                </div>
+                <div id="hide20" class="iloveyoutoo">
+                    <p id="slot20"></p>
+                    <p id="slot20b"></p>
+                    <button class="btn btn-lg btn-dark slot1c" onclick="remove20()">Remove</button>
+                </div>
+
+
+            </div>
+            <div class="awp">
+                <h1>Delivery Details</h1>
+                <form action="http://sirjm.infinityfreeapp.com/checkout.php" method="get">
+                    <div class="d-flex align-items-center">
+                        <label for="cust_name" class="form-label">Name:</label>
+                        <input type="text" name="cust_name" id="cust_name" class="form-control">
+                    </div>
+                    <div class="mt-4 d-flex align-items-center">
+                        <label for="cust_email" class="form-label">Email: </label>
+                        <input type="email" name="cust_email" id="cust_email" class="form-control">
+                    </div>
+                    <div class="d-flex align-items-center mt-4">
+                        <label for="cust_addr" class="form-label love">Address:</label>
+                        <input type="text" name="cust_addr" id="cust_addr" class="form-control">
+                    </div>
+                    <input type="hidden" id="cust_order1" name="cust_order" value="">
+                    <input type="submit" class="btn btn-lg btn-dark miag" value="Send">
+                </form>
+            </div>
+        </div>
+  
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        
+        function add1(){
+            if(a==0){
+            cust_order.push(prod1); 
+            const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+            a=1;
+            document.getElementById('slot1').innerHTML=prod1.prod_name;
+            document.getElementById('slot1b').innerHTML="Php"+prod1.prod_price;
+            document.getElementById('hide1').style.display='block';
+            }
+            else{
+
+            }
+ }
+ function remove1(){
+    var index = cust_order.indexOf(prod1);
+if (index > -1) {
+  cust_order.splice(index, 1);
+  index = -5;
+  a=0;
+}
+    const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+    document.getElementById('slot1').innerHTML="";
+    document.getElementById('slot1b').innerHTML="";
+    document.getElementById('hide1').style.display='none';
+ }
+
+ 
+ function add2(){
+    if(b==0){
+            cust_order.push(prod2); 
+            const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+            b=1;
+            document.getElementById('slot2').innerHTML=prod2.prod_name;
+            document.getElementById('slot2b').innerHTML="Php"+prod2.prod_price;
+            document.getElementById('hide2').style.display='block';
+    }
+    else{
+        
+    }
+ }
+
+ function remove2(){
+    var index = cust_order.indexOf(prod2);
+if (index > -1) {
+  cust_order.splice(index, 1);
+  index = -5;
+  b=0;
+}
+    const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+    document.getElementById('slot2').innerHTML="";
+    document.getElementById('slot2b').innerHTML="";
+    document.getElementById('hide2').style.display='none';
+ }
+
+ function add3(){
+    if(c==0){
+            cust_order.push(prod3); 
+            const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+            c=1;
+            document.getElementById('slot3').innerHTML=prod3.prod_name;
+            document.getElementById('slot3b').innerHTML="Php"+prod3.prod_price;
+            document.getElementById('hide3').style.display='block';
+    }
+    else{
+        
+    }
+ }
+
+ function remove3(){
+    var index = cust_order.indexOf(prod3);
+if (index > -1) {
+  cust_order.splice(index, 1);
+  index = -5;
+  c=0;
+}
+    const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+    document.getElementById('slot3').innerHTML="";
+    document.getElementById('slot3b').innerHTML="";
+    document.getElementById('hide3').style.display='none';
+ }
+
+ function add4(){
+    if(d==0){
+            cust_order.push(prod4); 
+            const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+            d=1;
+            document.getElementById('slot4').innerHTML=prod4.prod_name;
+            document.getElementById('slot4b').innerHTML="Php"+prod4.prod_price;
+            document.getElementById('hide4').style.display='block';
+    }
+    else{
+        
+    }
+ }
+
+ function remove4(){
+    var index = cust_order.indexOf(prod4);
+if (index > -1) {
+  cust_order.splice(index, 1);
+  index = -5;
+  d=0;
+}
+    const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+    document.getElementById('slot4').innerHTML="";
+    document.getElementById('slot4b').innerHTML="";
+    document.getElementById('hide4').style.display='none';
+ }
+
+ function add5(){
+    if(e==0){
+            cust_order.push(prod5); 
+            const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+            e=1;
+            document.getElementById('slot5').innerHTML=prod5.prod_name;
+            document.getElementById('slot5b').innerHTML="Php"+prod5.prod_price;
+            document.getElementById('hide5').style.display='block';
+    }
+    else{
+        
+    }
+ }
+
+ function remove5(){
+    var index = cust_order.indexOf(prod5);
+if (index > -1) {
+  cust_order.splice(index, 1);
+  index = -5;
+  e=0;
+}
+    const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+    document.getElementById('slot5').innerHTML="";
+    document.getElementById('slot5b').innerHTML="";
+    document.getElementById('hide5').style.display='none';
+ }
+ function add6(){
+    if(f==0){
+            cust_order.push(prod6); 
+            const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+            f=1;
+            document.getElementById('slot6').innerHTML=prod6.prod_name;
+            document.getElementById('slot6b').innerHTML="Php"+prod6.prod_price;
+            document.getElementById('hide6').style.display='block';
+    }
+    else{
+        
+    }
+ }
+
+ function remove6(){
+    var index = cust_order.indexOf(prod6);
+if (index > -1) {
+  cust_order.splice(index, 1);
+  index = -5;
+  f=0;
+}
+    const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+    document.getElementById('slot6').innerHTML="";
+    document.getElementById('slot6b').innerHTML="";
+    document.getElementById('hide6').style.display='none';
+ }
+
+ function add7(){
+    if(g==0){
+            cust_order.push(prod7); 
+            const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+            g=1;
+            document.getElementById('slot7').innerHTML=prod7.prod_name;
+            document.getElementById('slot7b').innerHTML="Php"+prod7.prod_price;
+            document.getElementById('hide7').style.display='block';
+    }
+    else{
+        
+    }
+ }
+
+ function remove7(){
+    var index = cust_order.indexOf(prod7);
+if (index > -1) {
+  cust_order.splice(index, 1);
+  index = -5;
+  g=0;
+}
+    const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+    document.getElementById('slot7').innerHTML="";
+    document.getElementById('slot7b').innerHTML="";
+    document.getElementById('hide7').style.display='none';
+ }
+
+ function add8(){
+    if(h==0){
+            cust_order.push(prod8); 
+            const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+            h=1;
+            document.getElementById('slot8').innerHTML=prod8.prod_name;
+            document.getElementById('slot8b').innerHTML="Php"+prod8.prod_price;
+            document.getElementById('hide8').style.display='block';
+    }
+    else{
+        
+    }
+ }
+
+ function remove8(){
+    var index = cust_order.indexOf(prod8);
+if (index > -1) {
+  cust_order.splice(index, 1);
+  index = -5;
+  h=0;
+}
+    const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+    document.getElementById('slot8').innerHTML="";
+    document.getElementById('slot8b').innerHTML="";
+    document.getElementById('hide8').style.display='none';
+ }
+
+
+
+ function add9(){
+    if(i==0){
+            cust_order.push(prod9); 
+            const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+            i=1;
+            document.getElementById('slot9').innerHTML=prod9.prod_name;
+            document.getElementById('slot9b').innerHTML="Php"+prod9.prod_price;
+            document.getElementById('hide9').style.display='block';
+    }
+    else{
+        
+    }
+ }
+
+ function remove9(){
+    var index = cust_order.indexOf(prod9);
+if (index > -1) {
+  cust_order.splice(index, 1);
+  index = -5;
+  i=0;
+}
+    const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+    document.getElementById('slot9').innerHTML="";
+    document.getElementById('slot9b').innerHTML="";
+    document.getElementById('hide9').style.display='none';
+ }
+
+ function add10(){
+    if(j==0){
+            cust_order.push(prod10); 
+            const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+            j=1;
+            document.getElementById('slot10').innerHTML=prod10.prod_name;
+            document.getElementById('slot10b').innerHTML="Php"+prod10.prod_price;
+            document.getElementById('hide10').style.display='block';
+    }
+    else{
+        
+    }
+ }
+
+ function remove10(){
+    var index = cust_order.indexOf(prod10);
+if (index > -1) {
+  cust_order.splice(index, 1);
+  index = -5;
+  j=0;
+}
+    const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+    document.getElementById('slot10').innerHTML="";
+    document.getElementById('slot10b').innerHTML="";
+    document.getElementById('hide10').style.display='none';
+ }
+
+ function add11(){
+    if(k==0){
+            cust_order.push(prod11); 
+            const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+            k=1;
+            document.getElementById('slot11').innerHTML=prod11.prod_name;
+            document.getElementById('slot11b').innerHTML="Php"+prod11.prod_price;
+            document.getElementById('hide11').style.display='block';
+    }
+    else{
+        
+    }
+ }
+
+ function remove11(){
+    var index = cust_order.indexOf(prod11);
+if (index > -1) {
+  cust_order.splice(index, 1);
+  index = -5;
+  k=0;
+}
+    const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+    document.getElementById('slot11').innerHTML="";
+    document.getElementById('slot11b').innerHTML="";
+    document.getElementById('hide11').style.display='none';
+ }
+
+ function add12(){
+    if(l==0){
+            cust_order.push(prod12); 
+            const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+            l=1;
+            document.getElementById('slot12').innerHTML=prod12.prod_name;
+            document.getElementById('slot12b').innerHTML="Php"+prod12.prod_price;
+            document.getElementById('hide12').style.display='block';
+    }
+    else{
+        
+    }
+ }
+
+ function remove12(){
+    var index = cust_order.indexOf(prod12);
+if (index > -1) {
+  cust_order.splice(index, 1);
+  index = -5;
+  l=0;
+}
+    const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+    document.getElementById('slot12').innerHTML="";
+    document.getElementById('slot12b').innerHTML="";
+    document.getElementById('hide12').style.display='none';
+ }
+ function add13(){
+    if(m==0){
+            cust_order.push(prod13); 
+            const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+            m=1;
+            document.getElementById('slot13').innerHTML=prod13.prod_name;
+            document.getElementById('slot13b').innerHTML="Php"+prod13.prod_price;
+            document.getElementById('hide13').style.display='block';
+    }
+    else{
+        
+    }
+ }
+
+ function remove13(){
+    var index = cust_order.indexOf(prod13);
+if (index > -1) {
+  cust_order.splice(index, 1);
+  index = -5;
+  m=0;
+}
+    const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+    document.getElementById('slot13').innerHTML="";
+    document.getElementById('slot13b').innerHTML="";
+    document.getElementById('hide13').style.display='none';
+ }
+
+
+ function add14(){
+    if(n==0){
+            cust_order.push(prod14); 
+            const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+            n=1;
+            document.getElementById('slot14').innerHTML=prod14.prod_name;
+            document.getElementById('slot14b').innerHTML="Php"+prod14.prod_price;
+            document.getElementById('hide14').style.display='block';
+    }
+    else{
+        
+    }
+ }
+
+ function remove14(){
+    var index = cust_order.indexOf(prod14);
+if (index > -1) {
+  cust_order.splice(index, 1);
+  index = -5;
+  n=0;
+}
+    const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+    document.getElementById('slot14').innerHTML="";
+    document.getElementById('slot14b').innerHTML="";
+    document.getElementById('hide14').style.display='none';
+ }
+
+
+ function add15(){
+    if(o==0){
+            cust_order.push(prod15); 
+            const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+            o=1;
+            document.getElementById('slot15').innerHTML=prod15.prod_name;
+            document.getElementById('slot15b').innerHTML="Php"+prod15.prod_price;
+            document.getElementById('hide15').style.display='block';
+    }
+    else{
+        
+    }
+ }
+
+ function remove15(){
+    var index = cust_order.indexOf(prod15);
+if (index > -1) {
+  cust_order.splice(index, 1);
+  index = -5;
+  o=0;
+}
+    const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+    document.getElementById('slot15').innerHTML="";
+    document.getElementById('slot15b').innerHTML="";
+    document.getElementById('hide15').style.display='none';
+ }
+
+
+ function add16(){
+    if(p==0){
+            cust_order.push(prod16); 
+            const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+            p=1;
+            document.getElementById('slot16').innerHTML=prod16.prod_name;
+            document.getElementById('slot16b').innerHTML="Php"+prod16.prod_price;
+            document.getElementById('hide16').style.display='block';
+    }
+    else{
+        
+    }
+ }
+
+ function remove16(){
+    var index = cust_order.indexOf(prod16);
+if (index > -1) {
+  cust_order.splice(index, 1);
+  index = -5;
+  p=0;
+}
+    const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+    document.getElementById('slot16').innerHTML="";
+    document.getElementById('slot16b').innerHTML="";
+    document.getElementById('hide16').style.display='none';
+ }
+
+ function add17(){
+    if(q==0){
+            cust_order.push(prod17); 
+            const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+            q=1;
+            document.getElementById('slot17').innerHTML=prod17.prod_name;
+            document.getElementById('slot17b').innerHTML="Php"+prod17.prod_price;
+            document.getElementById('hide17').style.display='block';
+    }
+    else{
+        
+    }
+ }
+
+ function remove17(){
+    var index = cust_order.indexOf(prod17);
+if (index > -1) {
+  cust_order.splice(index, 1);
+  index = -5;
+  q=0;
+}
+    const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+    document.getElementById('slot17').innerHTML="";
+    document.getElementById('slot17b').innerHTML="";
+    document.getElementById('hide17').style.display='none';
+ }
+
+
+ function add18(){
+    if(r==0){
+            cust_order.push(prod18); 
+            const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+            r=1;
+            document.getElementById('slot18').innerHTML=prod18.prod_name;
+            document.getElementById('slot18b').innerHTML="Php"+prod18.prod_price;
+            document.getElementById('hide18').style.display='block';
+    }
+    else{
+        
+    }
+ }
+
+ function remove18(){
+    var index = cust_order.indexOf(prod18);
+if (index > -1) {
+  cust_order.splice(index, 1);
+  index = -5;
+  r=0;
+}
+    const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+    document.getElementById('slot18').innerHTML="";
+    document.getElementById('slot18b').innerHTML="";
+    document.getElementById('hide18').style.display='none';
+ }
+
+
+ function add19(){
+    if(s==0){
+            cust_order.push(prod19); 
+            const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+            s=1;
+            document.getElementById('slot19').innerHTML=prod19.prod_name;
+            document.getElementById('slot19b').innerHTML="Php"+prod19.prod_price;
+            document.getElementById('hide19').style.display='block';
+    }
+    else{
+        
+    }
+ }
+
+ function remove19(){
+    var index = cust_order.indexOf(prod19);
+if (index > -1) {
+  cust_order.splice(index, 1);
+  index = -5;
+  s=0;
+}
+    const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+    document.getElementById('slot19').innerHTML="";
+    document.getElementById('slot19b').innerHTML="";
+    document.getElementById('hide19').style.display='none';
+ }
+
+
+ function add20(){
+    if(t==0){
+            cust_order.push(prod20); 
+            const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+            t=1;
+            document.getElementById('slot20').innerHTML=prod20.prod_name;
+            document.getElementById('slot20b').innerHTML="Php"+prod20.prod_price;
+            document.getElementById('hide20').style.display='block';
+    }
+    else{
+        
+    }
+ }
+
+ function remove20(){
+    var index = cust_order.indexOf(prod20);
+if (index > -1) {
+  cust_order.splice(index, 1);
+  index = -5;
+  t=0;
+}
+    const myJSON = JSON.stringify(cust_order);
+            document.getElementById('cust_order1').value=myJSON;
+    document.getElementById('slot20').innerHTML="";
+    document.getElementById('slot20b').innerHTML="";
+    document.getElementById('hide20').style.display='none';
+ }
+        var cust_order=[];
+
+        var a=0;
+        var b=0;
+        var c=0;
+        var d=0;
+        var e=0;
+        var f=0;
+        var g=0;
+        var h=0;
+        var i=0;
+        var j=0;
+        var k=0;
+        var l=0;
+        var m=0;
+        var n=0;
+        var o=0;
+        var p=0;
+        var q=0;
+        var r=0;
+        var s=0;
+        var t=0;
+        var prod1={
+            prod_name: "Red Studio Ghibli Themed Hair clip",
+            prod_price: 70
+        };
+        var prod2={
+            prod_name: "Calcifer Designed Bucket Hat",
+            prod_price: 150
+        };
+        var prod3={
+            prod_name: "My Neighbor Totoro Crochet Hat",
+            prod_price: 200
+        };
+        var prod4={
+            prod_name: "My Neighbor Totoro Keychains",
+            prod_price: 60
+        };
+        var prod5={
+            prod_name: "My Neighbor Totoro Canvas Bag",
+            prod_price: 300
+        };
+        var prod6={
+            prod_name: "Turtle Themed Pearl Anklet",
+            prod_price: 40
+        };
+        var prod7={
+            prod_name: "Sun&Moon Matching Beaded Bracelet",
+            prod_price: 50
+        };
+        var prod8={
+            prod_name: "Aesthetic Handmade Earrings",
+            prod_price: 60
+        };
+        var prod9={
+            prod_name: "Grunge Themed Beaded Necklace",
+            prod_price: 120
+        };
+        var prod10={
+            prod_name: "Stylish Set of Rings",
+            prod_price: 30
+        };
+        var prod11={
+            prod_name: "Layered Polo Jacket",
+            prod_price: 350
+        };
+        var prod12={
+            prod_name: "Grey Cargo Pants",
+            prod_price: 130
+        };
+        var prod13={
+            prod_name: "Floral Button Up Polo",
+            prod_price: 120
+        };
+        var prod14={
+            prod_name: "Blue Cotton Sweater",
+            prod_price: 200
+        };
+        var prod15={
+            prod_name: "Grey Cargo Shorts",
+            prod_price: 210
+        };
+        var prod16={
+            prod_name: "Checkered Sleeveless Peplum Top",
+            prod_price: 180
+        };
+        var prod17={
+            prod_name: "Sage Green Vintage Gown",
+            prod_price: 350
+        };
+        var prod18={
+            prod_name: "Mushroom Themed Brown High Waisted Shorts",
+            prod_price: 150
+        };
+        var prod19={
+            prod_name: "Flower Designed Long Skirt",
+            prod_price: 190
+        };
+        var prod20={
+            prod_name: "Cotton Sleeveless Vest",
+            prod_price: 150
+        };
+        
+    </script>
+
+
+
+
+
+</body>
+</html> 
